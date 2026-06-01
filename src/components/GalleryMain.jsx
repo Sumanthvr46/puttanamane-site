@@ -17,7 +17,7 @@ export default function GalleryMain({ image, index, total, onPrev, onNext }) {
         className="gallery-img-enter aspect-[4/3] w-full object-cover sm:aspect-[16/10]"
       />
       <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/85 to-transparent px-4 pb-4 pt-12 sm:px-6 sm:pb-6 sm:pt-16">
-        <p className="text-sm font-medium text-ivory/95">{image.alt}</p>
+        <p className="sr-only">{image.alt}</p>
         <p className="mt-1 text-xs text-ivory/60">
           <span className="sm:hidden">Swipe to browse · </span>
           {index + 1} / {total}

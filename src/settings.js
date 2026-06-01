@@ -1,7 +1,7 @@
 export const property = {
   name: 'Puttanamane',
-  tagline: 'Ground floor homestay — calm, green, and welcoming',
-  location: 'Karnataka, India',
+  tagline: 'Ground floor homestay — calm and welcoming',
+  location: 'Bengaluru, Karnataka',
   airbnbUrl: 'https://www.airbnb.com/rooms/your-listing-id',
   bookLabel: 'Book on Airbnb',
 }
@@ -9,21 +9,19 @@ export const property = {
 export const contact = {
   title: 'Contact us',
   subtitle: 'Questions before you book? Reach out anytime.',
-  /** Shown on screen */
-  phoneDisplay: '+91 00000 00000',
-  /** Used for Call button — include country code, e.g. +919876543210 */
-  phoneTel: '+919876543210',
-  /** WhatsApp chat link — often different from the dial number */
-  whatsappUrl: 'https://wa.me/919876543210',
+  phoneDisplay: '+91 96324 91220',
+  phoneTel: '+919632491220',
+  whatsappUrl: 'https://wa.me/919632491220',
+  mapUrl: 'https://maps.app.goo.gl/9ceaUaWzvNp62WLZ6',
   callLabel: 'Call',
   whatsappLabel: 'WhatsApp',
-  address: 'Puttanamane, Ground floor\nYour village or area\nDistrict, Karnataka\nIndia — PIN 000000',
+  address: '462, 11th Main Rd, MS Ramaiah Layout\nHavanur Layout, Nagasandra\nBengaluru, Karnataka 560073',
 }
 
 export const stats = [
   { value: '4+', label: 'Guest rating' },
   { value: '6', label: 'Spaces to see' },
-  { value: '2–8', label: 'Guests welcome' },
+  { value: '2-6', label: 'Guests welcome' },
 ]
 
 export const sections = {
@@ -41,18 +39,17 @@ export const sections = {
 
 /** Replace src with /images/hero.jpg etc. when you add your photos */
 export const images = {
-  hero: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1800&q=90',
+  hero: '/images/actual-pics-uploads/pic1.jpeg',
   gallery: [
-    { src: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1000&q=85', alt: 'Front of Puttanamane' },
-    { src: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1000&q=85', alt: 'Living area' },
-    { src: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1000&q=85', alt: 'Bedroom' },
-    { src: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1000&q=85', alt: 'Veranda and garden' },
-    { src: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1000&q=85', alt: 'Dining space' },
-    { src: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1000&q=85', alt: 'Courtyard and greenery' },
+    { src: '/images/actual-pics-uploads/pic1.jpeg', alt: 'Front of Puttanamane' },
+    { src: '/images/actual-pics-uploads/pic2.jpeg', alt: 'Living area' },
+    { src: '/images/actual-pics-uploads/pic3.jpeg', alt: 'Bedroom' },
+    { src: '/images/actual-pics-uploads/pic4.jpeg', alt: 'Veranda and garden' },
+    { src: '/images/actual-pics-uploads/pic5.jpeg', alt: 'Dining space' },
   ],
 }
 
 export const site = {
-  title: 'Puttanamane — Ground floor homestay',
+  title: 'Puttanamane - Ground floor homestay',
   year: 2026,
 }

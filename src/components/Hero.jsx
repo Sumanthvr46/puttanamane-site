@@ -4,10 +4,15 @@ import SafeImage from './SafeImage'
 export default function Hero() {
   return (
     <section className="relative min-h-svh min-h-[100dvh] overflow-hidden">
-      <SafeImage
-        src={images.hero}
-        alt={property.name}
-        className="hero-ken-burns absolute inset-0 h-full w-full object-cover"
+      <div
+        role="img"
+        aria-label={property.name}
+        style={{
+          backgroundImage: `url(${images.hero})`,
+          backgroundPosition: 'center',
+          backgroundSize: 'contain',
+        }}
+        className="hero-ken-burns absolute inset-0 h-full w-full bg-no-repeat opacity-80"
       />
       <span className="grain absolute inset-0" aria-hidden />
       <span className="absolute inset-0 bg-gradient-to-b from-ink/55 via-ink/25 to-ink/80" aria-hidden />

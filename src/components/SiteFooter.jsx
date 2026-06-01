@@ -39,6 +39,14 @@ export default function SiteFooter() {
                 {contact.whatsappLabel}
               </a>
               <a
+                href={contact.mapUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="tap-scale mt-2 block text-sm text-ivory/70 hover:text-gold"
+              >
+                View map
+              </a>
+              <a
                 href={property.airbnbUrl}
                 target="_blank"
                 rel="noopener noreferrer"

@@ -33,6 +33,16 @@ export default function Contact() {
                       </span>
                     ))}
                   </p>
+                  <p className="mt-4">
+                    <a
+                      href={contact.mapUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="tap-scale inline-flex items-center rounded-full border border-ivory/30 bg-ivory/10 px-4 py-2 text-sm font-semibold text-ivory transition hover:bg-ivory/20"
+                    >
+                      View on Google Maps
+                    </a>
+                  </p>
                 </address>
               </article>
 
